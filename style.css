@@ -80,6 +80,9 @@ header{
     font-size: 16px;
 }
 
+.access-btn button:hover{
+     background-color: #cecfce;
+}
 .access-btn img{
     text-align: center;
     align-items: center;
@@ -120,6 +123,10 @@ header{
     border-radius: 4px;
     color: #FFFFFF;
     font-weight: 500;
+}
+
+.green-btn:hover{
+    background-color: #30B868;
 }
 
 .normal-btn{
@@ -297,6 +304,10 @@ header{
     font-weight: 600;
 }
 
+.think-btn button:hover{
+     background-color: #30B868;
+}
+
 .think-btn p{
     margin-top: 15px;
     font-size: 16px;
@@ -307,4 +318,56 @@ header{
 .think-btn .fa-solid{
     font-size: 5px;
     vertical-align: middle;
+}
+
+footer{
+    min-height: 348px;
+    padding: 120px 120px 30px 120px;
+    background: #030736;
+    color: white;
+}
+
+hr{
+    margin-top: 80px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.links ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div-links{
+    margin-top: 10px;
+}
+
+.div-links p{
+    margin-bottom: 10px;
+}
+
+.div-links a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    background: #f4f2f2;
+    border-radius: 50%;
+    margin: 0 3px;
+    color: #030736;
+    text-decoration: none;
+
+}
+
+.footer-p{
+    margin-top: 15px;
+    line-height: 24px;
+    text-align: center;
 }
