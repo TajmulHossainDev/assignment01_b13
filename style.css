@@ -5,7 +5,7 @@
     font-family: "Inter", sans-serif;
 }
 body{
-    background: #FFFFFF;
+    background: #f4f2f2;
 }
 header{
     height: 92px;
@@ -131,4 +131,69 @@ header{
     background: transparent;
     color: #FFFFFF;
 
+}
+
+#card{
+    max-height: 448px;
+}
+
+.card-section{
+    padding-top: 70px;
+    margin: 0 120px;
+    text-align: center;
+}
+
+.card-content h3{
+    font-size: 58px;
+    font-weight: bold;
+    color: #001931;
+}
+
+.card-content p{
+    padding-top: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.card-box{
+    padding-top: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.card-box .box{
+    width: 322px;
+    height: 300px;
+    background: #FFFFFF;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ 
+.box img{
+    background: #F95555;
+    color: #FFFFFF;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.box h3{
+    padding-top: 15px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    color: #001931;
+}
+
+.box p{
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
 }
